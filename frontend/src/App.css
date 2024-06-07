@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.modal{
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 70%;
+  height: 70%;
+  font-size: large;
+  
+}
+
+.modal-content{
+  background-color: rgba(129, 116, 142, 0.5);
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.close{
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer
+}
